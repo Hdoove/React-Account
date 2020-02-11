@@ -1,0 +1,34 @@
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin: 0 auto;
+    width: 50%;
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.list li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.list .date {
+    color: #000;
+}
+
+.list .type {
+    font-weight: bold;
+}
+
+.list .all {
+    float: right;
+    margin-right: 16px;
+    font-size: 18px;
+    font-style: italic;
+}
+
